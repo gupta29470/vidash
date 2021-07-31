@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:virash_task/screens/options_screen.dart';
+import 'package:virash_task/screens/feature_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Virash Quiz App',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
-      home: OptionScreen(),
+      home: FeatureScreen(),
     );
   }
 }
